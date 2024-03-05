@@ -4,9 +4,9 @@ import homePageHero from '../../images/HomePageHero/highway.jpg';
 import { theme } from 'theme/theme';
 
 export const SectionHero = styled.section`
-  padding-top: 70px;
+  padding-top: 60px;
   width: 100%;
-  height: 600px;
+  height: 700px;
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0)),
     url(${homePageHero});
   background-size: cover;
@@ -14,7 +14,8 @@ export const SectionHero = styled.section`
   background-repeat: no-repeat;
 
   @media screen and (min-width: ${theme.breakpoints[1]}) {
-    padding-top: 100px;
+    padding-top: 90px;
+    height: 600px;
   }
 
   @media screen and (min-width: ${theme.breakpoints[2]}) {
