@@ -1,24 +1,19 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-import { useMediaQuery } from "react-responsive";
-import { theme } from "../../theme/theme";
+import { useIsMobileOrTablet } from 'hooks/useIsMobileOrTablet';
 
-import { StyledHeader, Container } from "./Header.styled";
+import { StyledHeader, Container } from './Header.styled';
 
-import Logo from "../Logo/Logo";
-import BurgerButton from "./BurgerButton/BurgerButton";
-import Modal from "../common/Modal/Modal";
-import BurgerMenu from "./BurgerMenu/BurgerMenu";
-import Navigation from "./Navigation/Navigation";
+import Logo from '../Logo/Logo';
+import BurgerButton from './BurgerButton/BurgerButton';
+import Modal from '../common/Modal/Modal';
+import BurgerMenu from './BurgerMenu/BurgerMenu';
+import Navigation from './Navigation/Navigation';
 
 const Header = () => {
   const [isBurgerMenuShow, setIsBurgerMenuShow] = useState(false);
 
-  const tabletMaxWidht = theme.breakpoints[0];
-
-  const isMobileOrTablet = useMediaQuery({
-    query: `(max-width: ${tabletMaxWidht})`,
-  });
+  const isMobileOrTablet = useIsMobileOrTablet();
 
   const handleMenuOnClose = () => {
     setIsBurgerMenuShow(false);

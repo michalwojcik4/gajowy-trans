@@ -11,11 +11,11 @@ export const Img = styled.img`
   width: 100px;
   height: auto;
 
-  @media screen and (min-width: ${theme.breakpoints[0]}) {
-    width: 170px;
+  @media screen and (min-width: ${theme.breakpoints[1]}) {
+    width: 150px;
   }
 
-  @media screen and (min-width: ${theme.breakpoints[1]}) {
-    width: 250px;
+  @media screen and (min-width: ${theme.breakpoints[2]}) {
+    width: 200px;
   }
 `;

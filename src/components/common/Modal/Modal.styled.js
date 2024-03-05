@@ -1,5 +1,5 @@
-import styled from "@emotion/styled";
-import { theme } from "../../../theme/theme";
+import styled from '@emotion/styled';
+import { theme } from '../../../theme/theme';
 
 export const Overlay = styled.div`
   position: fixed;
@@ -13,11 +13,7 @@ export const Overlay = styled.div`
 
 export const ModalWindow = styled.div`
   overflow: hidden;
-  width: 70%;
+  width: 210px;
   height: 100%;
   background-color: ${theme.color.white[1]};
-
-  @media screen and (min-width: ${theme.breakpoints[0]}) {
-    width: 40%;
-  }
 `;

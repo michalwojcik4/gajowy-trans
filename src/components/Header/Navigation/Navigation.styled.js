@@ -29,11 +29,7 @@ export const NavLinkStyled = styled(NavLink)`
   height: 100%;
   color: ${theme.color.black.text};
 
-  @media screen and (min-width: ${theme.breakpoints[0]}) {
-    padding: 25px 0;
-  }
-
-  @media screen and (max-width: 1023px) {
+  @media screen and (max-width: ${theme.breakpoints[1]}) {
     &:hover,
     &:focus {
       background-color: ${theme.color.red[1]};
@@ -52,10 +48,12 @@ export const NavLinkStyled = styled(NavLink)`
 
     &:hover,
     &:focus {
+      background-color: transparent;
       color: ${theme.color.red[1]};
     }
 
     &.${props => props.activeclassname} {
+      background-color: transparent;
       color: ${theme.color.red[1]};
     }
   }

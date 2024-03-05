@@ -1,5 +1,5 @@
 export const theme = {
-  breakpoints: ['768px', '1024px'],
+  breakpoints: ['320px', '768px', '1024px'],
 
   fonts: {
     Poppins: "'Poppins', sans-serif",
@@ -10,12 +10,12 @@ export const theme = {
     '12px', //1
     '14px', //2
     '16px', //3
-    '18px', //4
+    '20px', //4
     '24px', //5
     '28px', //6
-    '44px', //7
-    '48px', //8
-    '100px', //9
+    '36px', //7
+    '44px', //8
+    '54px', //9
     '32px', //10
   ],
 

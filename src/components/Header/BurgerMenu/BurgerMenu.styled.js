@@ -25,9 +25,4 @@ export const Svg = styled(CloseBtnSvg)`
   width: 32px;
   height: 32px;
   fill: ${theme.color.red[1]};
-
-  @media (min-width: ${theme.breakpoints[0]}) {
-    width: 42px;
-    height: 42px;
-  }
 `;
