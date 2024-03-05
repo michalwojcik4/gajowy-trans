@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gajowy-trans/static/css/main.deeb5493.css",
-    "main.js": "/gajowy-trans/static/js/main.97096065.js",
-    "static/js/348.1d0a82b6.chunk.js": "/gajowy-trans/static/js/348.1d0a82b6.chunk.js",
+    "main.js": "/gajowy-trans/static/js/main.177e55f7.js",
+    "static/js/348.b0be494a.chunk.js": "/gajowy-trans/static/js/348.b0be494a.chunk.js",
     "static/js/643.0da7856f.chunk.js": "/gajowy-trans/static/js/643.0da7856f.chunk.js",
     "static/media/highway.jpg": "/gajowy-trans/static/media/highway.4c294b55d67baa76eb1d.jpg",
     "static/media/gajowy-trans_logo.png": "/gajowy-trans/static/media/gajowy-trans_logo.8ffd35dccfc4d10d3ec2.png",
@@ -10,12 +10,12 @@
     "static/media/closeButton.svg": "/gajowy-trans/static/media/closeButton.e9e93c9cdab742dec2831eba285804c5.svg",
     "static/media/burgerButton.svg": "/gajowy-trans/static/media/burgerButton.defe33324886135f0faf6531978767d3.svg",
     "main.deeb5493.css.map": "/gajowy-trans/static/css/main.deeb5493.css.map",
-    "main.97096065.js.map": "/gajowy-trans/static/js/main.97096065.js.map",
-    "348.1d0a82b6.chunk.js.map": "/gajowy-trans/static/js/348.1d0a82b6.chunk.js.map",
+    "main.177e55f7.js.map": "/gajowy-trans/static/js/main.177e55f7.js.map",
+    "348.b0be494a.chunk.js.map": "/gajowy-trans/static/js/348.b0be494a.chunk.js.map",
     "643.0da7856f.chunk.js.map": "/gajowy-trans/static/js/643.0da7856f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.deeb5493.css",
-    "static/js/main.97096065.js"
+    "static/js/main.177e55f7.js"
   ]
 }
