@@ -16,7 +16,7 @@ export const theme = {
     '36px', //7
     '44px', //8
     '54px', //9
-    '32px', //10
+    '70px', //10
   ],
 
   fontWeights: {
@@ -30,6 +30,7 @@ export const theme = {
     gray: {
       primary: '#AAAAAA',
       footer: '#4C4C4C',
+      1: '#696969',
     },
 
     red: {
