@@ -5,7 +5,7 @@ const HomePageHero = () => {
   return (
     <SectionHero>
       <Container>
-        <Title>Profesjonalny transport.</Title>
+        <Title>Profesjonalny transport</Title>
         <Text>
           Twoja pewność dostaw w każdym kolorze. Oferujemy niezawodny transport
           przez Europę. Zapytaj o wycenę już teraz!

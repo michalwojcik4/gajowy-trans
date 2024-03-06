@@ -10,7 +10,7 @@ export const Section = styled.section`
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   gap: 20px;
   height: 100%;
 

@@ -2,8 +2,7 @@ import styled from '@emotion/styled';
 
 export const HomePageSection = styled.section`
   height: fit-content;
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding: 50px 0;
 `;
 
 export const Img = styled.img``;
