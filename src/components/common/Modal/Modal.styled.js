@@ -13,7 +13,7 @@ export const Overlay = styled.div`
 
 export const ModalWindow = styled.div`
   overflow: hidden;
-  width: 210px;
+  width: 75%;
   height: 100%;
   background-color: ${theme.color.white[1]};
 `;
