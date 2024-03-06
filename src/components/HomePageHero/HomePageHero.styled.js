@@ -7,7 +7,11 @@ export const SectionHero = styled.section`
   padding-top: 60px;
   width: 100%;
   height: 700px;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0)),
+  background: linear-gradient(
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0)
+    ),
     url(${homePageHero});
   background-size: cover;
   background-position: center;
@@ -47,14 +51,15 @@ export const Text = styled.p`
 
 export const Button = styled.button`
   border: solid 2px ${theme.color.red[1]};
-  color: ${theme.color.red[1]};
+  outline: solid 2px ${theme.color.red[1]};
+  background-color: ${theme.color.red[1]};
+  color: ${theme.color.white[1]};
   padding: 15px;
   font-size: ${theme.fontSizes[2]};
 
   &:hover,
   &:focus {
-    background-color: ${theme.color.red[1]};
-    color: ${theme.color.white.text};
+    border: solid 2px ${theme.color.white[1]};
   }
 
   @media screen and (min-width: ${theme.breakpoints[1]}) {

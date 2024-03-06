@@ -3,7 +3,7 @@ import { ReactComponent as CloseBtnSvg } from '../../../images/svg/closeButton.s
 import { theme } from '../../../theme/theme';
 
 export const Wrapper = styled.div`
-  padding: 30px 0;
+  padding: 15px 0;
   width: 100%;
   height: 100%;
 `;

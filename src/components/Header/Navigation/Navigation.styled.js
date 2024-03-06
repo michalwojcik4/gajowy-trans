@@ -6,7 +6,9 @@ export const NavList = styled.ul`
   align-items: center;
   list-style: none;
   display: flex;
+  justify-content: space-between;
   flex-direction: ${props => props.fd || 'row'};
+  height: 100%;
 
   @media screen and (min-width: ${theme.breakpoints[1]}) {
     gap: 42px;
@@ -15,6 +17,7 @@ export const NavList = styled.ul`
 
 export const NavItem = styled.li`
   width: 100%;
+  height: 100%;
   text-align: center;
 
   @media screen and (min-width: ${theme.breakpoints[1]}) {
@@ -25,11 +28,14 @@ export const NavItem = styled.li`
 export const NavLinkStyled = styled(NavLink)`
   display: block;
   text-decoration: none;
-  padding: 20px 0;
   height: 100%;
   color: ${theme.color.black.text};
 
   @media screen and (max-width: ${theme.breakpoints[1]}) {
+    display: grid;
+    place-items: center;
+    text-align: center;
+
     &:hover,
     &:focus {
       background-color: ${theme.color.red[1]};
