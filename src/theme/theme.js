@@ -34,7 +34,7 @@ export const theme = {
     },
 
     red: {
-      1: '#C62828',
+      1: '#FF2400',
     },
 
     black: {

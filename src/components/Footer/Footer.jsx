@@ -1,9 +1,17 @@
-import { Container, StyledFooter } from './Footer.styled';
+import Adress from './Adress/Adress';
+import { Button, Container, StyledFooter, Wrapper } from './Footer.styled';
+import NavFooter from './NavFooter/NavFooter';
 
 const Footer = () => {
   return (
     <StyledFooter>
-      <Container>Footer</Container>
+      <Container>
+        <Wrapper>
+          <Adress />
+          <NavFooter />
+          <Button>Napisz do nas!</Button>
+        </Wrapper>
+      </Container>
     </StyledFooter>
   );
 };
