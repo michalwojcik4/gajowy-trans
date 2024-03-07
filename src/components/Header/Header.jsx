@@ -30,7 +30,7 @@ const Header = () => {
           !isBurgerMenuShow ? (
             <BurgerButton onClick={handleBurgerButton} />
           ) : (
-            <Modal onClose={handleMenuOnClose} isMenu={true}>
+            <Modal onClose={handleMenuOnClose}>
               <BurgerMenu onClose={handleMenuOnClose} />
             </Modal>
           )

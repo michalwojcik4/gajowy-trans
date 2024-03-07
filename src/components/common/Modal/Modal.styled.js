@@ -10,10 +10,3 @@ export const Overlay = styled.div`
   height: 100%;
   background-color: ${theme.color.black.overlay};
 `;
-
-export const ModalWindow = styled.div`
-  overflow: hidden;
-  width: 75%;
-  height: 100%;
-  background-color: ${theme.color.white[1]};
-`;

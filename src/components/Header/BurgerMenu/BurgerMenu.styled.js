@@ -4,8 +4,10 @@ import { theme } from '../../../theme/theme';
 
 export const Wrapper = styled.div`
   padding: 15px 0;
-  width: 100%;
+  overflow: hidden;
+  width: 75%;
   height: 100%;
+  background-color: ${theme.color.white[1]};
 `;
 
 export const Button = styled.button`
