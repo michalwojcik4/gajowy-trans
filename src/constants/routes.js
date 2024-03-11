@@ -4,5 +4,4 @@ export const routes = {
   OFFER_PAGE: '/offer',
   PRICE_PAGE: '/price-list',
   CONTACT_PAGE: '/contact',
-  FORM_PAGE: '/contact-form',
 };

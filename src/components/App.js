@@ -6,7 +6,7 @@ import SharedLayout from './SharedLayout/SharedLayout';
 
 const HomePage = lazy(() => import('../pages/HomePage/HomePage'));
 const AboutPage = lazy(() => import('../pages/AboutPage/AboutPage'));
-const FormPage = lazy(() => import('../pages/FormPage/FormPage'));
+
 const NotFoundPage = lazy(() => import('../pages/NotFoundPage/NotFoundPage'));
 
 const App = () => {
@@ -16,7 +16,6 @@ const App = () => {
         <Route path={routes.MAIN_PAGE} element={<SharedLayout />}>
           <Route index element={<HomePage />} />
           <Route path={routes.ABOUT_PAGE} element={<AboutPage />} />
-          <Route path={routes.FORM_PAGE} element={<FormPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>

@@ -15,8 +15,8 @@ const HomePageHero = () => {
           Twoja pewność dostaw w każdym kolorze. Oferujemy niezawodny transport
           przez Europę. Zapytaj o wycenę już teraz!
         </Text>
-        <NavLink to={routes.FORM_PAGE}>
-          <Button>Zapytaj o wycenę</Button>
+        <NavLink to={routes.OFFER_PAGE}>
+          <Button>Sprawdź ofertę</Button>
         </NavLink>
       </Container>
     </SectionHero>

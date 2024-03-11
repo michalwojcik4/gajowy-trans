@@ -14,8 +14,8 @@ const Footer = () => {
         <Wrapper>
           <Adress />
           <NavFooter />
-          <NavLink to={routes.FORM_PAGE}>
-            <Button>Napisz do nas!</Button>
+          <NavLink to={routes.CONTACT_PAGE}>
+            <Button>Zapytaj o wycenę!</Button>
           </NavLink>
         </Wrapper>
       </Container>
