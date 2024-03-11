@@ -26,11 +26,6 @@ const NavFooter = () => {
             Cennik
           </Link>
         </NavItem>
-        <NavItem>
-          <Link to={routes.CONTACT_PAGE} activeclassname="active">
-            Kontakt
-          </Link>
-        </NavItem>
       </NavList>
     </Nav>
   );
