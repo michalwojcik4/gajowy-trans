@@ -1,28 +1,22 @@
 import React from 'react';
-import useFormVisibility from 'hooks/useFormVisibility';
+import { NavLink } from 'react-router-dom';
+import { routes } from 'constants/routes';
 
 import Adress from './Adress/Adress';
 import NavFooter from './NavFooter/NavFooter';
-import Modal from 'components/common/Modal/Modal';
-import ContactForm from 'components/ContactForm/ContactForm';
 
 import { Button, Container, StyledFooter, Wrapper } from './Footer.styled';
 
 const Footer = () => {
-  const { isFormVisible, openForm, closeForm } = useFormVisibility();
-
   return (
     <StyledFooter>
       <Container>
         <Wrapper>
           <Adress />
           <NavFooter />
-          <Button onClick={openForm}>Napisz do nas!</Button>
-          {isFormVisible && (
-            <Modal onClose={closeForm}>
-              <ContactForm onClose={closeForm} />
-            </Modal>
-          )}
+          <NavLink to={routes.FORM_PAGE}>
+            <Button>Napisz do nas!</Button>
+          </NavLink>
         </Wrapper>
       </Container>
     </StyledFooter>

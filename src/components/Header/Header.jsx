@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import { useIsMobileOrTablet } from 'hooks/useIsMobileOrTablet';
+import useModalVisibility from 'hooks/useModalVisibility';
 
 import { StyledHeader, Container } from './Header.styled';
 
@@ -11,31 +12,23 @@ import BurgerMenu from './BurgerMenu/BurgerMenu';
 import Navigation from './Navigation/Navigation';
 
 const Header = () => {
-  const [isBurgerMenuShow, setIsBurgerMenuShow] = useState(false);
-
+  const { isModalVisible, openModal, closeModal } = useModalVisibility();
   const isMobileOrTablet = useIsMobileOrTablet();
-
-  const handleMenuOnClose = () => {
-    setIsBurgerMenuShow(false);
-  };
-  const handleBurgerButton = () => {
-    setIsBurgerMenuShow(true);
-  };
 
   return (
     <StyledHeader>
       <Container>
         <Logo />
         {isMobileOrTablet ? (
-          !isBurgerMenuShow ? (
-            <BurgerButton onClick={handleBurgerButton} />
+          !isModalVisible ? (
+            <BurgerButton onClick={openModal} />
           ) : (
-            <Modal onClose={handleMenuOnClose}>
-              <BurgerMenu onClose={handleMenuOnClose} />
+            <Modal onClose={closeModal}>
+              <BurgerMenu onClose={closeModal} />
             </Modal>
           )
         ) : (
-          <Navigation onClick={handleMenuOnClose} />
+          <Navigation onClick={closeModal} />
         )}
       </Container>
     </StyledHeader>
