@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { HomePageSection } from './HomePage.styled';
+import { HomePageSection, Wraper } from './HomePage.styled';
 
 import HomePageHero from 'components/HomePageHero/HomePageHero';
 import { Container } from 'components/common/Container.styled';
@@ -12,12 +12,14 @@ const HomePage = () => {
   return (
     <>
       <HomePageHero />
-      <Container>
-        <HomePageSection>
-          <HomeAboutSection />
-          <HomeCounterSection />
-          <HomeWhySection />
-          {/* <WhyDiv>
+
+      <HomePageSection>
+        <Container>
+          <Wraper>
+            <HomeAboutSection />
+            <HomeCounterSection />
+            <HomeWhySection />
+            {/* <WhyDiv>
             <TitleDiv>Dlaczego my?</TitleDiv>
             <Img src="#" alt="img" />
             <TitleText>Szeroki zakres usług transportowych</TitleText>
@@ -44,8 +46,9 @@ const HomePage = () => {
               wycenę transportu przez formularz na stronie internetowej.
             </Text>
           </WhyDiv> */}
-        </HomePageSection>
-      </Container>
+          </Wraper>
+        </Container>
+      </HomePageSection>
     </>
   );
 };

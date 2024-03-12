@@ -9,12 +9,12 @@ export const Container = styled.div`
   padding-right: 20px;
 
   @media screen and (min-width: ${theme.breakpoints[1]}) {
-    padding-left: 38px;
-    padding-right: 38px;
+    padding-left: 64px;
+    padding-right: 64px;
   }
 
   @media screen and (min-width: ${theme.breakpoints[2]}) {
-    padding-left: 64px;
-    padding-right: 64px;
+    padding-left: 120px;
+    padding-right: 120px;
   }
 `;

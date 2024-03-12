@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { NavLink } from 'react-router-dom';
 import { theme } from '../../theme/theme';
 
 import { Container as StyledContainer } from '../common/Container.styled';
@@ -30,6 +31,10 @@ export const Wrapper = styled.div`
   height: 100%;
 `;
 
+export const NavLinkStyled = styled(NavLink)`
+  margin-block: auto;
+`;
+
 export const Button = styled.button`
   border: solid 2px ${theme.color.red[1]};
   outline: solid 2px ${theme.color.red[1]};
@@ -37,7 +42,6 @@ export const Button = styled.button`
   color: ${theme.color.white[1]};
   padding: 15px;
   font-size: ${theme.fontSizes[2]};
-  margin-block: auto;
 
   &:hover,
   &:focus {
