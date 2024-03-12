@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gajowy-trans/static/css/main.deeb5493.css",
-    "main.js": "/gajowy-trans/static/js/main.3e04ba5b.js",
-    "static/js/139.2251a996.chunk.js": "/gajowy-trans/static/js/139.2251a996.chunk.js",
+    "main.js": "/gajowy-trans/static/js/main.7dde0237.js",
+    "static/js/139.312632e7.chunk.js": "/gajowy-trans/static/js/139.312632e7.chunk.js",
     "static/js/643.0da7856f.chunk.js": "/gajowy-trans/static/js/643.0da7856f.chunk.js",
     "static/js/241.b2891948.chunk.js": "/gajowy-trans/static/js/241.b2891948.chunk.js",
     "static/media/SmallTruck.jpeg": "/gajowy-trans/static/media/SmallTruck.3a7aef3b7999a4e19f10.jpeg",
@@ -16,13 +16,13 @@
     "static/media/mail.svg": "/gajowy-trans/static/media/mail.933bf33e2b37f15651a99727c6334b91.svg",
     "static/media/burgerButton.svg": "/gajowy-trans/static/media/burgerButton.defe33324886135f0faf6531978767d3.svg",
     "main.deeb5493.css.map": "/gajowy-trans/static/css/main.deeb5493.css.map",
-    "main.3e04ba5b.js.map": "/gajowy-trans/static/js/main.3e04ba5b.js.map",
-    "139.2251a996.chunk.js.map": "/gajowy-trans/static/js/139.2251a996.chunk.js.map",
+    "main.7dde0237.js.map": "/gajowy-trans/static/js/main.7dde0237.js.map",
+    "139.312632e7.chunk.js.map": "/gajowy-trans/static/js/139.312632e7.chunk.js.map",
     "643.0da7856f.chunk.js.map": "/gajowy-trans/static/js/643.0da7856f.chunk.js.map",
     "241.b2891948.chunk.js.map": "/gajowy-trans/static/js/241.b2891948.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.deeb5493.css",
-    "static/js/main.3e04ba5b.js"
+    "static/js/main.7dde0237.js"
   ]
 }
