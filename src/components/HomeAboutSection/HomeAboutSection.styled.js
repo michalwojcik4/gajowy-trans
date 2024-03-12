@@ -26,10 +26,6 @@ export const Img = styled.img`
     max-width: 48vw;
     margin: 0;
   }
-
-  /* @media screen and (min-width: ${theme.breakpoints[2]}) {
-    max-width: 500px;
-  } */
 `;
 
 export const Title = styled.h2`
