@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgajwoy_trans=self.webpackChunkgajwoy_trans||[]).push([[643],{643:function(n,e,r){r.r(e);r(791);var t=r(184);e.default=function(){return(0,t.jsx)(t.Fragment,{children:(0,t.jsx)("p",{children:"About"})})}}}]);
-//# sourceMappingURL=643.0da7856f.chunk.js.map
