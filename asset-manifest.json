@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gajowy-trans/static/css/main.63f8af47.css",
-    "main.js": "/gajowy-trans/static/js/main.80d09a77.js",
+    "main.js": "/gajowy-trans/static/js/main.3284a546.js",
     "static/js/137.9980453f.chunk.js": "/gajowy-trans/static/js/137.9980453f.chunk.js",
     "static/js/643.e16aafb6.chunk.js": "/gajowy-trans/static/js/643.e16aafb6.chunk.js",
     "static/js/241.e2b09053.chunk.js": "/gajowy-trans/static/js/241.e2b09053.chunk.js",
@@ -18,7 +18,7 @@
     "static/media/mail.svg": "/gajowy-trans/static/media/mail.933bf33e2b37f15651a99727c6334b91.svg",
     "static/media/burgerButton.svg": "/gajowy-trans/static/media/burgerButton.defe33324886135f0faf6531978767d3.svg",
     "main.63f8af47.css.map": "/gajowy-trans/static/css/main.63f8af47.css.map",
-    "main.80d09a77.js.map": "/gajowy-trans/static/js/main.80d09a77.js.map",
+    "main.3284a546.js.map": "/gajowy-trans/static/js/main.3284a546.js.map",
     "137.9980453f.chunk.js.map": "/gajowy-trans/static/js/137.9980453f.chunk.js.map",
     "643.e16aafb6.chunk.js.map": "/gajowy-trans/static/js/643.e16aafb6.chunk.js.map",
     "241.e2b09053.chunk.js.map": "/gajowy-trans/static/js/241.e2b09053.chunk.js.map",
@@ -26,6 +26,6 @@
   },
   "entrypoints": [
     "static/css/main.63f8af47.css",
-    "static/js/main.80d09a77.js"
+    "static/js/main.3284a546.js"
   ]
 }
