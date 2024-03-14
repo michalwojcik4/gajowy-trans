@@ -65,6 +65,10 @@ export const TextBox = styled.div`
   gap: 10px;
   border-left: 3px solid ${theme.color.gray.footer};
   padding-left: 5px;
+
+  @media screen and (min-width: ${theme.breakpoints[2]}) {
+    max-width: 30vw;
+  }
 `;
 
 export const TitleText = styled.h2`
