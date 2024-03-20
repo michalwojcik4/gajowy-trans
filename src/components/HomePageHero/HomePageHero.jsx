@@ -2,9 +2,13 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { routes } from 'constants/routes';
 
-import { Container } from 'components/common/Container.styled';
-
-import { SectionHero, Title, Text, Button } from './HomePageHero.styled';
+import {
+  SectionHero,
+  Title,
+  Text,
+  Button,
+  Container,
+} from './HomePageHero.styled';
 
 const HomePageHero = () => {
   return (

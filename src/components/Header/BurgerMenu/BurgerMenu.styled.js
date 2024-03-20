@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   overflow: hidden;
   width: 75%;
   height: 100%;
-  background-color: ${theme.color.white[1]};
+  background-color: ${theme.color.gray[1]};
 `;
 
 export const Button = styled.button`

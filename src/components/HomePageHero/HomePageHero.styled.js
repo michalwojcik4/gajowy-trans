@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 
+import { Container as StyledContainer } from 'components/common/Container.styled';
 import homePageHero from '../../images/HomePageHero/highway.jpg';
 import { theme } from 'theme/theme';
 
@@ -8,7 +9,7 @@ export const SectionHero = styled.section`
   width: 100%;
   height: 700px;
   background: linear-gradient(
-      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.3),
       rgba(255, 255, 255, 0.2),
       rgba(255, 255, 255, 0)
     ),
@@ -16,6 +17,7 @@ export const SectionHero = styled.section`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  color: ${theme.color.black[1]};
 
   @media screen and (min-width: ${theme.breakpoints[1]}) {
     padding-top: 90px;
@@ -25,6 +27,11 @@ export const SectionHero = styled.section`
   @media screen and (min-width: ${theme.breakpoints[2]}) {
     padding-top: 130px;
   }
+`;
+
+export const Container = styled(StyledContainer)`
+  padding-left: 20px;
+  padding-right: 20px;
 `;
 
 export const Title = styled.h1`

@@ -5,6 +5,16 @@ export const Why = styled.div`
   display: flex;
   flex-direction: column;
   gap: 40px;
+  background-color: ${theme.color.gray[1]};
+  padding: 20px;
+
+  @media screen and (min-width: ${theme.breakpoints[1]}) {
+    padding: 40px;
+  }
+
+  @media screen and (min-width: ${theme.breakpoints[2]}) {
+    padding: 60px;
+  }
 `;
 
 export const Title = styled.h2`
@@ -63,7 +73,7 @@ export const TextBox = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
-  border-left: 3px solid ${theme.color.gray.footer};
+  border-left: 3px solid ${theme.color.red[1]};
   padding-left: 5px;
 
   @media screen and (min-width: ${theme.breakpoints[2]}) {

@@ -28,28 +28,20 @@ export const theme = {
 
   color: {
     gray: {
-      primary: '#AAAAAA',
-      footer: '#4C4C4C',
-      1: '#696969',
+      1: 'rgb(31, 31, 31)',
     },
 
     red: {
-      1: '#a60c0c',
+      1: 'rgb(166, 12, 12)',
     },
 
     black: {
-      overlay: 'rgba(0, 0, 0, 0.5)',
-      text: '#191919',
+      1: 'rgb(25, 25, 25)',
+      overlay: 'rgb(25, 25, 25, 0.8)',
     },
 
     white: {
-      1: '#FFF',
-      2: '#E6E6E6',
-      text: '#E6E6E6',
-      bg_body: '#999999',
+      1: 'rgb(255, 255, 255)',
     },
   },
 };
-
-theme.breakpoints.tablet = theme.breakpoints[0];
-theme.breakpoints.desktop = theme.breakpoints[1];

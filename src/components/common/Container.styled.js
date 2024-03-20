@@ -5,16 +5,16 @@ export const Container = styled.div`
   margin: 0 auto;
   width: 100%;
   min-height: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 
   @media screen and (min-width: ${theme.breakpoints[1]}) {
-    padding-left: 64px;
-    padding-right: 64px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   @media screen and (min-width: ${theme.breakpoints[2]}) {
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 `;

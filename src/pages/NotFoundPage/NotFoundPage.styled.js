@@ -4,7 +4,8 @@ import { theme } from 'theme/theme';
 
 export const Section = styled.section`
   padding: 50px 0;
-  height: 100%;
+  height: fit-content;
+  background-color: ${theme.color.black[1]};
 `;
 
 export const Wrapper = styled.div`
@@ -35,7 +36,6 @@ export const Description = styled.div``;
 
 export const Title = styled.h2`
   font-size: ${theme.fontSizes[9]};
-  color: ${theme.color.gray[1]};
 
   @media screen and (min-width: ${theme.breakpoints[1]}) {
     font-size: ${theme.fontSizes[10]};
@@ -45,7 +45,6 @@ export const Title = styled.h2`
 export const Text = styled.p`
   margin-top: 10px;
   margin-bottom: 20px;
-  color: ${theme.color.gray[1]};
   font-size: ${theme.fontSizes[2]};
 
   @media screen and (min-width: ${theme.breakpoints[1]}) {

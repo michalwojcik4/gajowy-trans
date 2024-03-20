@@ -6,7 +6,7 @@ import { Container as StyledContainer } from '../common/Container.styled';
 
 export const StyledFooter = styled.footer`
   padding: 20px 0;
-  background-color: ${theme.color.gray.footer};
+  background-color: ${theme.color.black[1]};
   color: ${theme.color.white.text};
   font-size: ${theme.fontSizes[1]};
 

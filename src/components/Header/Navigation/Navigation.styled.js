@@ -11,7 +11,7 @@ export const NavList = styled.ul`
   height: 100%;
 
   @media screen and (min-width: ${theme.breakpoints[1]}) {
-    gap: 42px;
+    gap: 35px;
   }
 `;
 
@@ -29,7 +29,7 @@ export const NavLinkStyled = styled(NavLink)`
   display: block;
   text-decoration: none;
   height: 100%;
-  color: ${theme.color.black.text};
+  color: ${theme.color.white[1]};
 
   @media screen and (max-width: ${theme.breakpoints[1]}) {
     display: grid;
@@ -39,12 +39,10 @@ export const NavLinkStyled = styled(NavLink)`
     &:hover,
     &:focus {
       background-color: ${theme.color.red[1]};
-      color: ${theme.color.white.text};
     }
 
     &.${props => props.activeclassname} {
       background-color: ${theme.color.red[1]};
-      color: ${theme.color.white.text};
     }
   }
 
