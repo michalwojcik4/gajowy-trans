@@ -11,7 +11,7 @@ export const NavList = styled.ul`
   height: 100%;
 
   @media screen and (min-width: ${theme.breakpoints[1]}) {
-    gap: 35px;
+    gap: 40px;
   }
 `;
 

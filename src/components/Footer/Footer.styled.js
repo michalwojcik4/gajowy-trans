@@ -5,13 +5,11 @@ import { theme } from '../../theme/theme';
 import { Container as StyledContainer } from '../common/Container.styled';
 
 export const StyledFooter = styled.footer`
-  padding: 20px 0;
+  padding: 50px 0;
   background-color: ${theme.color.black[1]};
-  color: ${theme.color.white.text};
   font-size: ${theme.fontSizes[1]};
 
   @media screen and (min-width: ${theme.breakpoints[1]}) {
-    padding: 50px 0;
     font-size: ${theme.fontSizes[2]};
   }
 
