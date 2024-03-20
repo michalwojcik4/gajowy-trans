@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/gajowy-trans/static/css/main.63f8af47.css",
-    "main.js": "/gajowy-trans/static/js/main.3284a546.js",
-    "static/js/137.9980453f.chunk.js": "/gajowy-trans/static/js/137.9980453f.chunk.js",
+    "main.css": "/gajowy-trans/static/css/main.b1bb3745.css",
+    "main.js": "/gajowy-trans/static/js/main.f395315e.js",
+    "static/js/137.51354a27.chunk.js": "/gajowy-trans/static/js/137.51354a27.chunk.js",
     "static/js/643.e16aafb6.chunk.js": "/gajowy-trans/static/js/643.e16aafb6.chunk.js",
-    "static/js/241.e2b09053.chunk.js": "/gajowy-trans/static/js/241.e2b09053.chunk.js",
+    "static/js/241.76218ee0.chunk.js": "/gajowy-trans/static/js/241.76218ee0.chunk.js",
     "static/js/479.d194c3bb.chunk.js": "/gajowy-trans/static/js/479.d194c3bb.chunk.js",
     "static/media/SmallTruck.jpeg": "/gajowy-trans/static/media/SmallTruck.3a7aef3b7999a4e19f10.jpeg",
     "static/media/handshake.jpg": "/gajowy-trans/static/media/handshake.fa56b67d604ec8dd152a.jpg",
     "static/media/highway.jpg": "/gajowy-trans/static/media/highway.4c294b55d67baa76eb1d.jpg",
-    "static/media/404img.png": "/gajowy-trans/static/media/404img.40ef0f65d0637bcf455c.png",
-    "static/media/gajowy-trans_logo.png": "/gajowy-trans/static/media/gajowy-trans_logo.8ffd35dccfc4d10d3ec2.png",
+    "static/media/404img.png": "/gajowy-trans/static/media/404img.dfcc195384e3f2ef9c84.png",
+    "static/media/gajowy-trans_logo.png": "/gajowy-trans/static/media/gajowy-trans_logo.27fefabaaee6815f8d9c.png",
     "static/media/phone.svg": "/gajowy-trans/static/media/phone.12ad9d64e3793367f3d24cbc3aa5e1d3.svg",
     "static/media/map-pin.svg": "/gajowy-trans/static/media/map-pin.ee01665e2b6bb7f2ee57e96c0a29d8f9.svg",
     "index.html": "/gajowy-trans/index.html",
     "static/media/closeButton.svg": "/gajowy-trans/static/media/closeButton.e9e93c9cdab742dec2831eba285804c5.svg",
     "static/media/mail.svg": "/gajowy-trans/static/media/mail.933bf33e2b37f15651a99727c6334b91.svg",
     "static/media/burgerButton.svg": "/gajowy-trans/static/media/burgerButton.defe33324886135f0faf6531978767d3.svg",
-    "main.63f8af47.css.map": "/gajowy-trans/static/css/main.63f8af47.css.map",
-    "main.3284a546.js.map": "/gajowy-trans/static/js/main.3284a546.js.map",
-    "137.9980453f.chunk.js.map": "/gajowy-trans/static/js/137.9980453f.chunk.js.map",
+    "main.b1bb3745.css.map": "/gajowy-trans/static/css/main.b1bb3745.css.map",
+    "main.f395315e.js.map": "/gajowy-trans/static/js/main.f395315e.js.map",
+    "137.51354a27.chunk.js.map": "/gajowy-trans/static/js/137.51354a27.chunk.js.map",
     "643.e16aafb6.chunk.js.map": "/gajowy-trans/static/js/643.e16aafb6.chunk.js.map",
-    "241.e2b09053.chunk.js.map": "/gajowy-trans/static/js/241.e2b09053.chunk.js.map",
+    "241.76218ee0.chunk.js.map": "/gajowy-trans/static/js/241.76218ee0.chunk.js.map",
     "479.d194c3bb.chunk.js.map": "/gajowy-trans/static/js/479.d194c3bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63f8af47.css",
-    "static/js/main.3284a546.js"
+    "static/css/main.b1bb3745.css",
+    "static/js/main.f395315e.js"
   ]
 }
