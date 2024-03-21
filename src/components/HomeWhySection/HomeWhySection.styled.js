@@ -1,19 +1,12 @@
 import styled from '@emotion/styled';
+import { Box } from 'components/common/Box.styled';
 import { theme } from 'theme/theme';
 
-export const Why = styled.div`
-  display: flex;
-  flex-direction: column;
+export const Why = styled(Box)`
   gap: 40px;
-  background-color: ${theme.color.gray[1]};
-  padding: 20px;
 
   @media screen and (min-width: ${theme.breakpoints[1]}) {
-    padding: 40px;
-  }
-
-  @media screen and (min-width: ${theme.breakpoints[2]}) {
-    padding: 60px;
+    flex-direction: column;
   }
 `;
 

@@ -4,7 +4,7 @@ import { theme } from 'theme/theme';
 
 export const Section = styled.section`
   padding: 50px 0;
-  height: fit-content;
+  height: 100%;
   background-color: ${theme.color.black[1]};
 `;
 
